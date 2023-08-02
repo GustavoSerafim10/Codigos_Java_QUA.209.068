@@ -1,0 +1,48 @@
+package principal;
+
+public class Variáveis {
+
+	public static void main(String[] args) {
+		
+		int numero; 
+		numero = 10; 
+		double decimal = 10.50;
+		
+		int testeNumero = (int) 50.25;
+		double testeNovoNumero = 10;
+		
+		//aspas duplas para strings
+		String nome = "Gustavo Vinicius";
+		//aspas simples para char
+		char sexo = 'F';
+		//booleanos = são valores V ou F
+		boolean verdadeiro = true;
+		boolean falso = false;
+		
+		double peso = 100.00;
+		int idade = 33;
+		
+		System.out.println(decimal);
+		System.out.println(decimal);
+		System.out.println(testeNumero);
+		System.out.println(testeNovoNumero);
+		System.out.println(nome);
+		System.out.println(sexo);
+		System.out.println(verdadeiro);
+		System.out.println(falso);
+		
+		//aqui abaixo vamos criar da parte do double pra baixo tlg *************
+		
+			
+		System.out.print("Meu nome é: " + nome);
+		
+		// Vou fazer um teste realizando a junção de frases
+		
+		String nome = "Gustavo Vinicius";
+		int idade = 24;
+				
+		
+		System.out.print("Meu nome é: " + nome);
+	}
+
+}

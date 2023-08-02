@@ -1,0 +1,15 @@
+package principal;
+
+public class Variáveis {
+
+	public static void main(String[] args) {
+		
+		int numero; 
+		numero = 10; 
+		double decimal = 10.50;
+		
+		System.out.println(numero);
+
+	}
+
+}
