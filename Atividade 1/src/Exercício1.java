@@ -3,28 +3,27 @@ public class Exercício1 {
 
 	public static void main(String[] args) {
 		
-	int numero1;
-	numero1 = 50;
 	
-	int numero2;
-	numero2 = 100;
+	//Essa foi a primeira parte do exercício Ativade 1
 	
-	String casa = "Me informaram que sua casa pegou fogo";
-	boolean falso = false;
+	int numero1 = 10;
+	double numero2 = 20;
+	char opcao = 's';
+	String mensagem = "Boa Tarde!";
+	boolean valor = true;
+	
+	String nome = "Gustavo";
+	String sobrenome = "Vinicius";
 	
 	System.out.println(numero1);
 	System.out.println(numero2);
-	System.out.println(casa);
-	System.out.println(falso);
+	System.out.println(opcao);
+	System.out.println(mensagem);
+	System.out.println(valor);
 	
-	System.out.println("****************");
-
-	String nome = " Gustavo ";
-	String Sobrenome = "Vinicius";
+	//Início da atividade 2 - Correção
 	
-	System.out.print("Meu nome é: " + nome + Sobrenome);
-	
-	
+	System.out.println("Nome completo: " + nome + " " + sobrenome);
 	
 	}
 
