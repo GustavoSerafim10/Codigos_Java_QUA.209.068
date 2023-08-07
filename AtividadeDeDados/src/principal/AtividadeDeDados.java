@@ -17,7 +17,7 @@ public class AtividadeDeDados {
 		
 		System.out.println("Digite o nome do Jogador:");
 		jogador = leia.nextLine();
-		
+	
 		System.out.println("Digite o número do jogador:");
 		número = leia.nextInt();
 
