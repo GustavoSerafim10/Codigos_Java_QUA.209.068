@@ -21,8 +21,12 @@ public class CorrecaoDoProfFuncoes {
 		 
 	}
 	
+	
 
+	{
+		
+	}
 	static double calculaAreaTerreno(double largura, double comprimento)
 		return largura * comprimento;
-	
+}
 }
